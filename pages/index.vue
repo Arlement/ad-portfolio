@@ -1,6 +1,11 @@
 <template>
     <div class="flex flex-col justify-center items-center mt-32">
-        <nuxt-img src="/profilepicture.png" height="250" width="250" />
+        <nuxt-img
+            src="/profilepicture.png"
+            height="250"
+            width="250"
+            alt="Alem's PFP"
+        />
         <h1 class="text-white font-['Roboto'] font-bold text-4xl mt-6">Alem</h1>
         <h2 class="text-gray-400 font-['Inter']">
             Content Creator and Developer
@@ -71,14 +76,15 @@
                     src="/leafplays.png"
                     width="30"
                     height="30"
+                    alt="Leaf Plays' PFP"
                 />
-                <h3 class="text-white font-['Inter'] ml-1">
+                <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">Video Editing</span> - Leaf Plays
-                </h3>
+                </h1>
             </div>
-            <h4 class="text-white font-['Inter'] ml-1">
+            <h2 class="text-white font-['Inter'] ml-1">
                 <span class="font-bold">Rating:</span> 10/10 (100%)
-            </h4>
+            </h2>
             <p class="text-white font-['Inter'] mt-2 max-w-sm md:max-w-3xl">
                 "10/10 Stars would definitely recommend to others"
             </p>
@@ -91,14 +97,15 @@
                     src="/default.png"
                     width="30"
                     height="30"
+                    alt="Default PFP"
                 />
-                <h3 class="text-white font-['Inter'] ml-1">
+                <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">2D Art</span> - ASi_YT
-                </h3>
+                </h1>
             </div>
-            <h3 class="text-white font-['Inter'] ml-1">
+            <h2 class="text-white font-['Inter'] ml-1">
                 <span class="font-bold">Rating:</span> 10/10 (100%)
-            </h3>
+            </h2>
             <p class="text-white font-['Inter'] mt-2 max-w-sm md:max-w-3xl">
                 "Hi I’m a customer of AlemDev and all I can say is.. 1000/10
                 work was quick amazing good looking more then I ever expected.
@@ -114,14 +121,15 @@
                     src="/default.png"
                     width="30"
                     height="30"
+                    alt="Default PFP"
                 />
-                <h3 class="text-white font-['Inter'] ml-1">
+                <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">2D Art</span> - IronicZones
-                </h3>
+                </h1>
             </div>
-            <h3 class="text-white font-['Inter'] ml-1">
+            <h2 class="text-white font-['Inter'] ml-1">
                 <span class="font-bold">Rating:</span> 10/10 (100%)
-            </h3>
+            </h2>
             <p class="text-white font-['Inter'] mt-2 max-w-sm md:max-w-3xl">
                 "The experience that I had at AlemDev was excellent, everything
                 was on time, and the quality of the logo was amazing!"
@@ -135,21 +143,24 @@
                     src="/default.png"
                     width="30"
                     height="30"
+                    alt="Default PFP"
                 />
-                <h3 class="text-white font-['Inter'] ml-1">
+                <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">Building</span> - MrAsna
-                </h3>
+                </h1>
             </div>
-            <h3 class="text-white font-['Inter'] ml-1">
+            <h2 class="text-white font-['Inter'] ml-1">
                 <span class="font-bold">Rating:</span> 8.5/10 (85%)
-            </h3>
+            </h2>
             <p class="text-white font-['Inter'] mt-2 max-w-sm md:max-w-3xl">
                 No comment.
             </p>
         </div>
     </div>
 
-    <div class="text-white font-['Inter'] my-14 flex flex-col justify-center items-center">
+    <div
+        class="text-white font-['Inter'] my-14 flex flex-col justify-center items-center"
+    >
         Crafted with ❤️ by qvgk
     </div>
 </template>
