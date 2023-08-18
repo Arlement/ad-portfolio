@@ -77,6 +77,7 @@
                     width="30"
                     height="30"
                     alt="Leaf Plays' PFP"
+                    loading="lazy"
                 />
                 <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">Video Editing</span> - Leaf Plays
@@ -98,6 +99,7 @@
                     width="30"
                     height="30"
                     alt="Default PFP"
+                    loading="lazy"
                 />
                 <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">2D Art</span> - ASi_YT
@@ -122,6 +124,7 @@
                     width="30"
                     height="30"
                     alt="Default PFP"
+                    loading="lazy"
                 />
                 <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">2D Art</span> - IronicZones
@@ -144,6 +147,7 @@
                     width="30"
                     height="30"
                     alt="Default PFP"
+                    loading="lazy"
                 />
                 <h1 class="text-white font-['Inter'] ml-1">
                     <span class="font-bold">Building</span> - MrAsna
