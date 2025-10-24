@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     devtools: { enabled: true },
+    compatibilityDate: "2025-10-24",
 
     app: {
         head: {
@@ -18,7 +19,7 @@ export default defineNuxtConfig({
                 },
             ],
             htmlAttrs: {
-                lang: 'en'
+                lang: "en",
             },
             link: [
                 { rel: "icon", type: "image/png", href: "/profilepicture.png" },
