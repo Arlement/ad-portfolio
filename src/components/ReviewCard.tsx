@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import { basePath } from "@/lib/base-path";
 import type { Review } from "@/i18n/translations";
 
 /** A single customer review card. */
@@ -8,7 +9,7 @@ export default function ReviewCard({ review }: { review: Review }) {
     <figure className="rounded-2xl border border-white/10 bg-white/5 p-6">
       <div className="flex items-center gap-3">
         <Image
-          src={review.avatar}
+          src={`${basePath}${review.avatar}`}
           alt={`${review.name}'s avatar`}
           width={40}
           height={40}

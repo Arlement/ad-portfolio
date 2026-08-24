@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import ReviewCard from "./ReviewCard";
 import VideoEmbed from "./VideoEmbed";
+import { basePath } from "@/lib/base-path";
 import type { Translation } from "@/i18n/translations";
 
 /** Embedded YouTube videos. Titles are the literal video titles (not translated). */
@@ -23,7 +24,7 @@ export default function Portfolio({ t }: { t: Translation }) {
       {/* Hero */}
       <section className="flex flex-col items-center px-6 pb-16 pt-20 text-center">
         <Image
-          src="/profilepicture.png"
+          src={`${basePath}/profilepicture.png`}
           alt={`${t.hero.name}'s avatar`}
           width={160}
           height={160}
